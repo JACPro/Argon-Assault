@@ -1,0 +1,41 @@
+[33mcommit 9bda7599b975136fbcd545a7bcb2ea57717a4510[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31mArgon_Assault/master[m[33m)[m
+Author: JACPro <jamesacpro@gmail.com>
+Date:   Tue Jul 7 16:22:36 2020 +0100
+
+    Added persistent music, moving camera and basic ship left/right
+
+[33mcommit 7b005643ffdf1366fc74e9b082426946a5b869cb[m
+Author: JACPro <jamesacpro@gmail.com>
+Date:   Sun Jul 5 16:31:58 2020 +0100
+
+    Added splash screen and spaceship
+
+[33mcommit 1acc675d4d177f798f4d8a61e61f5502e04edfdc[m
+Author: JACPro <jamesacpro@gmail.com>
+Date:   Wed Sep 11 16:28:32 2019 +0100
+
+    Update terrain texture
+
+[33mcommit 6d8ac300d1e196deaa8dee9c2749aa492a8789b6[m
+Author: JACPro <jamesacpro@gmail.com>
+Date:   Tue Sep 10 00:28:00 2019 +0100
+
+    Add skybox
+
+[33mcommit 33d5558e471bd3ba9563f9d6a431cae59ef759a1[m
+Author: JACPro <jamesacpro@gmail.com>
+Date:   Mon Sep 9 14:49:40 2019 +0100
+
+    Reshape terrain, add textures
+
+[33mcommit 65ce116fc14dd8bd8c13f72f853aefa6a1a7afec[m
+Author: JACPro <jamesacpro@gmail.com>
+Date:   Tue Sep 3 01:47:37 2019 +0100
+
+    Create first terrain shape
+
+[33mcommit 7935e97b3f6e0281533250d139338878fa675717[m
+Author: JACPro <jamesacpro@gmail.com>
+Date:   Fri Aug 23 12:02:31 2019 +0100
+
+    Initial Commit
