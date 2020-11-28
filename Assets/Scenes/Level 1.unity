@@ -146,7 +146,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 93057962}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -39.4, y: 136.3, z: -41.3}
+  m_LocalPosition: {x: -39.4, y: 128.15, z: -41.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 626234656}
@@ -524,7 +524,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 110
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -570,7 +570,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   circuit: {fileID: 93057964}
-  lookAheadForTargetOffset: 5
+  lookAheadForTargetOffset: 0.6
   lookAheadForTargetFactor: 0.1
   lookAheadForSpeedOffset: 10
   lookAheadForSpeedFactor: 0.2
@@ -900,11 +900,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   xSpeed: 5
-  xRange: 1
-  yRange: 1.2
-  positionPitchFactor: 10
+  xRange: 3
+  yRange: 1.7
+  positionPitchFactor: 2.5
   controlPitchFactor: -10
-  positionYawFactor: -5
+  positionYawFactor: 2.5
   controlRollFactor: -15
 --- !u!4 &4381798773291085675
 Transform:
@@ -1862,7 +1862,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8524130598274002120}
   m_LocalRotation: {x: 0, y: 0, z: -0, w: -1}
-  m_LocalPosition: {x: 0, y: 0, z: 4.37}
+  m_LocalPosition: {x: 0, y: 0, z: 3.12}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5608302056489117563}
