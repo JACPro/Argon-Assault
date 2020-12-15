@@ -21,6 +21,14 @@ public class Player : MonoBehaviour
         
     }
 
+    private void OnCollisionEnter(Collision other) {
+        Debug.Log("Player collided with something");
+    }
+
+    private void OnTriggerEnter(Collider other) {
+        Debug.Log("Player triggered something");
+    }
+
     void Update()
     {
         ProcessTranslation();
