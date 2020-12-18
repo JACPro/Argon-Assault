@@ -6,6 +6,16 @@ using UnityEngine.SceneManagement;
 public class MusicPlayer : MonoBehaviour
 {
     void Awake() {
-        DontDestroyOnLoad(gameObject);   
+        //Singleton pattern
+        //destroy self if already music player in scene
+        int numMusicPlayers = FindObjectsOfType<MusicPlayer>().Length;
+        if (numMusicPlayers > 1) 
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            DontDestroyOnLoad(gameObject);   
+        }
     }
 }
