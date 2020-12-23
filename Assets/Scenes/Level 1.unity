@@ -272,7 +272,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8899477394655718831, guid: 6d7afa73fcb1fce4cb4b65361a29bcbd, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 6d7afa73fcb1fce4cb4b65361a29bcbd, type: 3}
 --- !u!1 &316594538
 GameObject:
@@ -805,7 +806,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5991329033445802113, guid: 6a7580c2fbbc4fe41947b58d9f7d3f2b, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 6a7580c2fbbc4fe41947b58d9f7d3f2b, type: 3}
 --- !u!1 &1672845338 stripped
 GameObject:
@@ -1019,6 +1021,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player Ship 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4668118472058798688, guid: 92c4b10285430bb4fb39606aaa9a43e0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8913848432760485824, guid: 92c4b10285430bb4fb39606aaa9a43e0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1121,11 +1128,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bullets Left
-      objectReference: {fileID: 0}
-    - target: {fileID: 4668118472058798688, guid: 92c4b10285430bb4fb39606aaa9a43e0,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1428122915396330529, guid: 92c4b10285430bb4fb39606aaa9a43e0,
         type: 3}
