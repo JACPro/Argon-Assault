@@ -5,6 +5,9 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    [SerializeField] GameObject deathFX;
+    [SerializeField] Transform parent;
+
     void Start() {
         AddBoxCollider();
     }
@@ -21,6 +24,8 @@ public class Enemy : MonoBehaviour
     }
 
     private void OnParticleCollision(GameObject other) {
+        GameObject fx = Instantiate(deathFX, transform.position, Quaternion.identity); //spawn enemy death explosion FX at enemy location
+        fx.transform.parent = parent;
         Destroy(gameObject);
     }
 }
