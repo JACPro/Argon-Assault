@@ -8,7 +8,11 @@ public class Enemy : MonoBehaviour
     [SerializeField] GameObject deathFX;
     [SerializeField] Transform parent;
 
+    ScoreBoard scoreBoard;
+    [SerializeField] int scoreValue = 300;
+
     void Start() {
+        scoreBoard = FindObjectOfType<ScoreBoard>();
         AddBoxCollider();
     }
 
@@ -26,6 +30,7 @@ public class Enemy : MonoBehaviour
     private void OnParticleCollision(GameObject other) {
         GameObject fx = Instantiate(deathFX, transform.position, Quaternion.identity); //spawn enemy death explosion FX at enemy location
         fx.transform.parent = parent;
+        scoreBoard.ScoreHit(scoreValue);
         Destroy(gameObject);
     }
 }
