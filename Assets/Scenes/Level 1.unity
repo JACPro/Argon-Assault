@@ -569,6 +569,12 @@ MonoBehaviour:
   progressStyle: 0
   pointToPointThreshold: 4
   target: {fileID: 963194228}
+--- !u!1 &977536176 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3056809481437557865, guid: 103432c4935b70240844e84a20869efc,
+    type: 3}
+  m_PrefabInstance: {fileID: 3358251590837365434}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1185313103
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1194,6 +1200,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2103026945 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3358251590850058124, guid: 103432c4935b70240844e84a20869efc,
+    type: 3}
+  m_PrefabInstance: {fileID: 3358251590837365434}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1295906079285391019
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1409,6 +1421,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player Death FX
+      objectReference: {fileID: 0}
+    - target: {fileID: 3056809481437557865, guid: 103432c4935b70240844e84a20869efc,
+        type: 3}
+      propertyPath: m_Name
+      value: Gun Left
+      objectReference: {fileID: 0}
+    - target: {fileID: 5095952414635136906, guid: 103432c4935b70240844e84a20869efc,
+        type: 3}
+      propertyPath: guns.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5095952414635136906, guid: 103432c4935b70240844e84a20869efc,
+        type: 3}
+      propertyPath: guns.Array.data[0]
+      value: 
+      objectReference: {fileID: 2103026945}
+    - target: {fileID: 5095952414635136906, guid: 103432c4935b70240844e84a20869efc,
+        type: 3}
+      propertyPath: guns.Array.data[1]
+      value: 
+      objectReference: {fileID: 977536176}
+    - target: {fileID: 3358251590850058124, guid: 103432c4935b70240844e84a20869efc,
+        type: 3}
+      propertyPath: m_Name
+      value: Gun Right
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 103432c4935b70240844e84a20869efc, type: 3}
