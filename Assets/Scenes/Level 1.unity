@@ -1273,6 +1273,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 7.63
       objectReference: {fileID: 0}
+    - target: {fileID: 1295906080076117308, guid: 1ca16804fc39c0242811c31b1e01b868,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1c6706c72078d694bac9e06079fa7b16, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ca16804fc39c0242811c31b1e01b868, type: 3}
 --- !u!4 &1411531397513754202 stripped
@@ -1362,6 +1367,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player Ship 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3056809481437557865, guid: 103432c4935b70240844e84a20869efc,
+        type: 3}
+      propertyPath: m_Name
+      value: Gun Left
+      objectReference: {fileID: 0}
+    - target: {fileID: 3358251590850058124, guid: 103432c4935b70240844e84a20869efc,
+        type: 3}
+      propertyPath: m_Name
+      value: Gun Right
+      objectReference: {fileID: 0}
     - target: {fileID: 4398939678013545696, guid: 103432c4935b70240844e84a20869efc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1422,11 +1437,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player Death FX
       objectReference: {fileID: 0}
-    - target: {fileID: 3056809481437557865, guid: 103432c4935b70240844e84a20869efc,
-        type: 3}
-      propertyPath: m_Name
-      value: Gun Left
-      objectReference: {fileID: 0}
     - target: {fileID: 5095952414635136906, guid: 103432c4935b70240844e84a20869efc,
         type: 3}
       propertyPath: guns.Array.size
@@ -1442,10 +1452,5 @@ PrefabInstance:
       propertyPath: guns.Array.data[1]
       value: 
       objectReference: {fileID: 977536176}
-    - target: {fileID: 3358251590850058124, guid: 103432c4935b70240844e84a20869efc,
-        type: 3}
-      propertyPath: m_Name
-      value: Gun Right
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 103432c4935b70240844e84a20869efc, type: 3}
